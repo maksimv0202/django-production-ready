@@ -1,7 +1,7 @@
 name: Django Backend Build & Test Workflow (Dev)
 on:
   push:
-    branches: ["master", "dev/**"]
+    branches: ["main", "dev/**"]
   pull_request:
 jobs:
   build:
